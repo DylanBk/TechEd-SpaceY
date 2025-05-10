@@ -13,8 +13,8 @@ html {
     height: 100%;
     width: 100%;
     background: black;
-    scroll-snap-type: y mandatory; /* Enable vertical scroll snapping */
-    scroll-behavior: smooth; /* Optional: Smooth scrolling */
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 
 a, button {
@@ -22,11 +22,11 @@ a, button {
 }
 
 main > div {
-    scroll-snap-align: start ; /* Snap to the start of each section */
-    min-height: 100vh; /* Ensure each section is at least the height of the viewport */
-    display: flex; /* Optional: Center content vertically */
-    flex-direction: column; /* Optional: Stack content vertically */
-    justify-content: center; /* Optional: Center content vertically */
+    scroll-snap-align: start;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #home {
